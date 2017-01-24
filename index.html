@@ -1,0 +1,185 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+    <!-- TITLE -->
+    <title>META FRIZZ</title>
+    <!-- META -->
+    <meta name="description" content="Sito Web aranciata meta frizz" />
+    <meta name="keywords" content="aranciata metafrizz" />
+    <meta name="author" content="Riccardo Biscaro" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" />
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <!-- SECTION 1 - HEADER -->
+    <div id="section-1">
+        <!-- MENU -->
+        <div class="navbar">
+            <ul class="menu" id="myMenu">
+                <li><a href="#section-1">HOME</a></li>
+                <li><a href="#section-2">COS&acute;&Eacute;</a></li>
+                <li><a href="#section-3">REGISTRATI</a></li>
+                <li><a href="#section-4">TESTIMONIANZE</a></li>
+                <li class="about">
+                    <a>ABOUT</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">WHO</a></li>
+                        <li><a href="#">WHERE</a></li>
+                        <li><a href="#">WHEN</a></li>
+                    </ul>
+                </li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+            </ul>
+        </div>
+        <!-- LOGO -->
+        <div class="container">
+            <div class="logo">
+                <p>
+                    Me<span class="ta">Ta</span>
+                    <span class="taNum">73</span>
+                </p>
+                <p class="fr">
+                    <span class="frNum">87</span>
+                    <span class="ta">Fr</span>izz
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION 2 - DESCRIOZIONE -->
+    <div id="section-2">
+        <div class="container">
+            <div class="row">
+                <!-- TITOLO -->
+                <h1>L&acute;ARANCIATA Cos&iacute; Frizzante da far Sballare</h1>
+                <!-- TESTO -->
+                <div class="col-6">
+                    <p class="testo">
+                        Nel mezzo del cammin di nostra vita
+                        mi ritrovai per una selva oscura,
+                        ché la diritta via era smarrita.
+
+                        Ahi quanto a dir qual era è cosa dura
+                        esta selva selvaggia e aspra e forte
+                        che nel pensier rinova la paura!
+
+                        Tant’è amara che poco è più morte;
+                        ma per trattar del ben ch’i’ vi trovai,
+                        dirò de l’altre cose ch’i’ v’ho scorte.
+                    </p>
+                    <p class="testo">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <!-- IMMAGINE -->
+                <div class="col-6">
+                    <img class="bottiglia" src="img/bottiglia.png" alt="bottiglia_metafrizz" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION 3 - FORM -->
+    <div id="section-3">
+        <div class="container">
+            <div class="row">
+                <!-- TITOLO -->
+                <h1>REGISTRATI</h1>
+                <!-- FORM -->
+                <form action="" method="post" target="_blank">
+                    <input type="text" name="name" id="txt_name" placeholder="Nome" maxlength="25" required="required" autocomplete="off" />
+                    <input type="text" name="surname" id="txt_surname" placeholder="Cognome" maxlength="25" required="required" autocomplete="off" />
+                    <input type="email" name="email" id="txt_email" placeholder="La tua Mail" maxlength="100" required="required" autocomplete="off" />
+                    <input type="email" name="email_2" id="txt_email2" placeholder="Reinserisci la tua Mail" maxlength="100" required="required" autocomplete="off" />
+                    <input type="password" name="password" id="txt_password" placeholder="Nuova Password" pattern="[A-Za-z0-9]{8,19}"
+                           title="Una Password è composta da lettere minuscole, maiuscole e numeri: sono consentiti da 8 a 20 caratteri."
+                           required="required" autocomplete="off" /><br />
+                    <label>Data di nascita:</label><br />
+                    <input type="date" name="ip_date" /><br class="clearfix" />
+
+                    <input type="radio" name="gender" value="male"> Maschio
+                    <input type="radio" name="gender" value="female"> Femmina
+                    <input type="radio" name="gender" value="other"> Altro
+                    <details>
+                        <summary>Perchè devo fare questo?</summary>
+                        <p>per creare un utente unico e proteggere i tuoi segreti più reconditi</p>
+                    </details>
+                    <input type="submit" value="SIGN UP" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION 4 - TESTIMONIANZE -->
+    <div id="section-4">
+        <div class="container">
+            <!-- TITOLO -->
+            <h1>TESTIMONIANZE</h1>
+            <div class="row">
+                <!-- PANEL -->
+                <div class="col-4">
+                    <div class="panel">
+                        <img src="img/test_1.jpg" alt="prima immagine testimonianza" />
+                        <blockquote><h3>"Non ho più motivo di drogarmi!"</h3></blockquote>
+                        <p>
+                            Nel mezzo del cammin di nostra vita
+                            mi ritrovai per una selva oscura,
+                            ché la diritta via era smarrita.
+                        </p>
+                        <a href="">Read more..</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="panel">
+                        <img src="img/test_2.jpg" alt="seconda immagine testimonianza" />
+                        <blockquote><h3>"Mi fa friggere il naso!"</h3></blockquote>
+                        <p>
+                            Nel mezzo del cammin di nostra vita
+                            mi ritrovai per una selva oscura,
+                            ché la diritta via era smarrita.
+                        </p>
+                        <a href="">Read more..</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="panel">
+                        <img src="img/test_3.jpg" alt="terza immagine testimonianza" />
+                        <blockquote><h3>"La MetaFrizz è meglio dell'acqua!"</h3></blockquote>
+                        <p>
+                            Nel mezzo del cammin di nostra vita
+                            mi ritrovai per una selva oscura,
+                            ché la diritta via era smarrita.
+                        </p>
+                        <a href="">Read more..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <label><p>copyright &copy; by RB Company. Designed by Riccardo Biscaro.</p></label>
+                </div>
+                <div class="col-4">
+                    <p class="link"><a href="">ABOUT</a> | <a href="">PRIVACY</a> | <a href="">COOKIES</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

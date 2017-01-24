@@ -1,0 +1,355 @@
+/* ------------------------------------- */
+/* ------------- GENERALE -------------- */
+/* ------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+    font-family: 'Lemonada', cursive;
+}
+
+.container {
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    overflow: auto;
+}
+
+.row {
+    clear: both;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* COL */
+
+.col-4, .col-6, .col-8 {
+    float: left;
+    position: relative;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* SFODNO FIGO */
+
+#section-1, #section-3 {
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-2, #section-4 {
+    background: -webkit-linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    background: -moz-linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    background: -o-linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    background: linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    box-shadow: inset 0px 2px 2px rgba(50,50,50,.6);
+    padding-bottom: 50px;
+}
+
+/* ------------------------------------- */
+/* ---------------- MENU --------------- */
+/* ------------------------------------- */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    z-index: 9999;
+}
+
+/* MENU SUPERIORE */
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 600px;
+}
+
+    .menu li {
+        display: inline-block;
+    }
+
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu li:hover {
+            background-color: #ff6600;
+        }
+
+/* MENU INFERIORE */
+
+.about {
+    position: relative;
+    display: inline-block;
+}
+
+.sub-menu {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color: #ffb84d;
+}
+
+    .sub-menu > li {
+        width: 100%;
+        clear: both;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .sub-menu li:hover {
+        background-color: #ff6600;
+    }
+
+.about:hover .sub-menu {
+    display: block;
+    background-color: #ffb84d;
+}
+
+.menu li.icon {
+    display: none;
+}
+
+/* ------------------------------------- */
+/* ------------ SEZIONE 1 -------------- */
+/* ------------------------------------- */
+
+#section-1 {
+    background-image: url("../img/bg-img-1.jpg");
+}
+
+/* LOGO */
+
+.logo {
+    width: 500px;
+    margin: -155px 0 0 -250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+    .logo p {
+        font-size: 140px;
+        font-family: sans-serif;
+        color: #fff;
+        margin-left: -26%;
+    }
+
+.taNum, .frNum {
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -27px;
+}
+
+.frNum {
+    margin-left: 152px;
+}
+
+.logo p.fr {
+    margin: 24px 52%;
+}
+
+.ta {
+    padding: 10px 19px;
+    background: green;
+    border: 3px solid #fff;
+    width: 200px;
+    height: 200px;
+    background: -webkit-linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    background: -moz-linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    background: -o-linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    background: linear-gradient(130deg, #ff9933 0%, #ff6600 100%, #ffc299 90%);
+    box-shadow: inset 0px 2px 2px rgba(50,50,50,.6);
+}
+
+
+/* ------------------------------------- */
+/* ------------ SEZIONE 2 -------------- */
+/* ------------------------------------- */
+
+#section-2 {
+    font-size: 1.7vw;
+}
+
+.bottiglia {
+    width: 100%;
+    padding: 0 60px;
+}
+
+.testo {
+    padding: 15px;
+    text-align:justify;
+}
+
+/* ------------------------------------- */
+/* ------------ SEZIONE 3 -------------- */
+/* ------------------------------------- */
+
+#section-3 {
+    background-image: url("../img/bg-img-3.jpg");
+    padding-bottom: 50px;
+}
+
+/* FORM */
+
+form {
+    border: 3px solid #f1f1f1;
+    padding: 10px;
+    background-color: #ffb84d;
+    font-size: 16px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=date] {
+    width: 50%;
+    float: left;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    float: left;
+}
+
+input[type=submit] {
+    width: 100%;
+    background: #ff9933;
+    border: none;
+    font-weight: bold;
+}
+
+    input[type=submit]:hover {
+        background: #ff6600;
+        color: #fff;
+    }
+
+form label {
+    padding: 20px;
+}
+
+details {
+    padding: 10px;
+}
+
+/* ------------------------------------- */
+/* ------------ SEZIONE 4 -------------- */
+/* ------------------------------------- */
+
+#section-4 {
+    font-size: 30px;
+}
+
+/* PANEL */
+
+.panel {
+    font-size: 14px;
+    margin: 20px 10px 30px 10px;
+    padding: 15px 15px 30px 15px;
+    background: #ffb84d;
+}
+
+    .panel img {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 10px;
+    }
+
+    .panel h3 {
+        color: #d01818;
+        text-align: center;
+        font-style: italic;
+        font-size: 1.4em;
+        padding: 10px;
+    }
+
+    .panel p {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .panel a {
+        background-color: #d01818;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: 2px solid #b70000;
+        margin: 10px;
+    }
+
+/* ------------------------------------- */
+/* -------------- FOOTER --------------- */
+/* ------------------------------------- */
+
+#footer {
+    padding: 50px;
+}
+
+    #footer p.link {
+        text-align: right;
+    }
+
+        #footer p.link a {
+            text-decoration: none;
+            color: orangered;
+        }
+
+            #footer p.link a:hover {
+                color: black;
+            }
+
+

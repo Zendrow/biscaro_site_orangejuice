@@ -1,0 +1,155 @@
+/* ------------------------------------- */
+/* -------------- MEDIA ---------------- */
+/* ------------------------------------- */
+
+@media (max-width:1000px){
+    #section-2 {
+    font-size: 20px;
+	}
+}
+
+
+
+@media (max-width:900px) {
+    .col-6 {
+        width:100%;
+    }
+}
+
+@media (max-width: 768px) {
+		
+		.container {
+        width: 90%;
+    }
+
+    #footer p.link , #footer p {
+        text-align: center;
+    }
+
+    /* MENU */
+
+    .menu li:not(:first-child) {
+        display: none;
+    }
+
+    .menu li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+        .menu li a:hover {
+            background-color: #ff6600;
+        }
+
+        .menu.responsive {
+            position: relative;
+        }
+
+            .menu.responsive li.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .menu.responsive li {
+                float: none;
+                display: inline;
+            }
+
+                .menu.responsive li a {
+                    display: block;
+                    text-align: left;
+                }
+
+    /* SUB-MENU */
+
+    .sub-menu {
+        display: block;
+        position: relative;
+    }
+
+        .sub-menu > li {
+            padding: 0;
+        }
+
+    /* COL */
+    .col-4, .col-6, .col-8 {
+        width: 100%;
+    }
+
+    /* FORM */
+
+    form {
+        width: 100%;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="submit"] {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:640px) {
+	
+		
+    #section-2 {
+        font-size: 18px;
+    }
+
+    .form {
+        width: 100%;
+    }		
+
+    /* LOGO */
+
+    .logo {
+        width: 300px;
+       margin: -93px 0 0 -150px;
+    }
+
+        .logo p {
+            font-size: 90px;
+            margin-left: 0;
+        }
+
+            .logo p.fr {
+                margin: 24px 6%;
+            }
+
+    .frNum {
+        margin-left: 106px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:360px) {
+
+    /* LOGO */
+
+    .logo {
+        width: 300px;
+        margin: -120px 0 0 -150px;
+    }
+
+        .logo p {
+            font-size: 100px;
+            margin-left: 0;
+        }
+
+            .logo p.fr {
+                margin: 24px 6%;
+            }
+
+    .frNum {
+        margin-left: 117px;
+    }
+}
